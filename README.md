@@ -22,6 +22,7 @@ Each algorithm is implemented using Python and focuses on providing a clear and 
 The repository currently includes the following machine learning algorithms:
 
 - Linear Regression
+- Logistic Regression
 
 
 Each algorithm is organized into its own directory, with separate Python files for the implementation and an example usage file that demonstrates how to apply the algorithm to a sample dataset.
