@@ -22,6 +22,7 @@ mse = mse(y_test, predictions)
 print(mse)
 
 y_pred_line = reg.predict(X)
+# print(f"y_pred_line {y_pred_line}")
 cmap = plt.get_cmap("viridis")
 fig = plt.figure(figsize = (8,6))
 m1 = plt.scatter(X_train, y_train, color = cmap(0.9), s = 10)
